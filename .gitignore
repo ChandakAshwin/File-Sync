@@ -1,0 +1,17 @@
+# Local/IDE
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Environment & secrets
+.env
+box_credentials.json
+
+# App artifacts
+documents/
+es-data/
+es-logs/
+celerybeat-schedule.*
+main.zip
